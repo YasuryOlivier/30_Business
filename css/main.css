@@ -1,0 +1,56 @@
+.bg-1{
+	background-image: url("../img/large.jpg");
+	background-size: cover;
+	background-color: opacity: 1.5;
+}
+.bg-azul{
+	background-color: blue;
+	opacity: .7;
+}
+.abajo{
+    margin-top:12%; 
+}
+.btn-1{
+	border: solid white;
+	border-radius: 10%;
+	background-color:blue; 
+	margin-top: 3%;
+}
+.blue{
+ color: blue; 
+}
+.brd-1{
+	border-radius: 50px;
+}
+.white{
+color: white;
+}
+nav.navbar{/*Color del nav bar*/
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-brand {/*Color del titulo*/
+    color: white;
+    font-size: 200%;
+    font-family: 'Arial';
+}
+.navbar-default .navbar-nav > li > a { /*Color de links*/
+    color: white;
+    font-family: 'Arial';
+    font-size: 100%;
+}
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
+.navbar-default .navbar-nav > li > a:focus {
+    color: green;
+}
+.navbar-default .navbar-nav > .active > a, /*Fondo de links puntero sobre ellos*/
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #76CB7E;
+    font-family: 'Arial';
+}
+header{
+	color: white;
+}
