@@ -7,6 +7,18 @@
 	background-color: blue;
 	opacity: .7;
 }
+.bg-black{
+	background-color: black;	
+}
+.circulo{
+	border-radius: 100%;
+	font-size: 60px;
+	color: white;
+	padding:7px;
+}
+.f-t{
+	font-size: 30px;
+}
 .abajo{
     margin-top:12%; 
 }
@@ -19,16 +31,16 @@
 	background-color:blue; 
 	margin-top: 3%;
 }
+
 .blue{
  color: blue; 
 }
 .brd-1{
 	color: blue;
-	font-size: 70px;
+	font-size: 80px;
 }
 .btn-2{
  border-radius: 100%;
- padding:10%;
  background: white;
 }
 .separador{
