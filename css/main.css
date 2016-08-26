@@ -10,6 +10,9 @@
 .abajo{
     margin-top:12%; 
 }
+.abajo-1{
+    margin-top:7%; 
+}
 .btn-1{
 	border: solid white;
 	border-radius: 10%;
@@ -20,7 +23,16 @@
  color: blue; 
 }
 .brd-1{
-	border-radius: 50px;
+	color: blue;
+	font-size: 70px;
+}
+.btn-2{
+ border-radius: 100%;
+ padding:10%;
+ background: white;
+}
+.separador{
+ margin-top: -60px;
 }
 .white{
 color: white;
