@@ -87,4 +87,6 @@ li:hover{
 }
 .efecto:hover{
 	-webkit-transform: rotate(7deg);
+	background: blue;
+	
 }
