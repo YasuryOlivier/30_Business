@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  	<meta charset="utf-8">
-	  	<title>User Testing 360°</title>
-	  	<link rel="stylesheet" href="css/main.css">
-  		<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
-  		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  		<link rel="stylesheet" type="text/css" href="css/icomoon.css">
-  		<script src="js/nav-scroll.js"></script>
-  		<script src="js/menu-scroll.js"></script>
-  		<script src="js/main.js"></script>
+  	<meta charset="utf-8">
+  	<title>User Testing 360°</title>
+  	<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+		<script src="js/nav-scroll.js"></script>
+		<script src="js/menu-scroll.js"></script>
+		<script src="js/main.js"></script>
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.easing.min"></script>
+    <link rel="shortcut icon" href="favicon.ico">
 	</head>
 	<body>
     	<header class="bg-1">
@@ -32,37 +33,80 @@
 			          </div>
 			          	<div id="navbar" class="collapse navbar-collapse">
 			            	<ul class="nav navbar-nav navbar-right">
-			              		<li><a href="#">¿Qué me ofrece?</a></li>
+			              		<li><a href="#que">¿Qué me ofrece?</a></li>
 			              		<li><a href="#como">¿cómo funciona?</a></li>
 			              		<li><a href="#porque">¿por que usarlo?</a></li>
-			              		<li><a href="contactanos">Contactanos</a></li>
+			              		<li><a href="contact.html" target="_blank" >Contactanos</a></li>
 			            	</ul>
 			          	</div>
 			        </div>
 			    </nav><!--fin del nav bar-->
-			    <div class="row"><!--esta es la sección de background-->
-			    	<div class="col-lg-12 abajo">
-			    		<h2 class="text-center">Obten videos de personas reales<br> utilizando tu sitio web, en 1 Hora</h2>
-			    	</div>
-			    </div>
-			    <div class="row bg-azul abajo">
-			    	<div class="col-lg-6">
-			    		<div class="text-right">
-			    			<h3>PRUEBA GRATUITA</h3>
-			    			<p>Obtén un video gratis de 5 minutos</p>
-			    		</div>
-			    	</div>
-			    	<div class="col-lg-6">
-			    		<button class="btn-1"><h5>Pruebalo Gratis</h5></button>
-			    	</div>
-			    </div>
-			</div>
+			     <div class="row"><!--esta es la sección de background-->
+            <div class="col-lg-12 col-xs-12 abajo">
+              <h2 class="text-center white">Obten videos de personas reales<br> utilizando tu sitio web, en 1 Hora</h2>
+            </div>
+          </div>
+          <div class="row bg-azul abajo"><!--sección prueba-->
+            <div class="col-lg-6 col-xs-6">
+              <div class="text-right white">
+                <h3>PRUEBA GRATUITA</h3>
+                <p>Obtén un video gratis de 5 minutos</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-lg-6"><!--estas sección esta hecha con clases de bootstrap, clase modal que crea ventanas emergentes-->
+              <button class="btn-1 white" data-toggle="modal" data-target="#ventana"><h5>Pruebalo Gratis</h5></button>
+            </div>
+          </div>
+          <div class="modal fade" id="ventana" tabindex="-1" role="dialog" aria-labelledby="MyModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4>Formulario Users Testing 360</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="form-horizontal"><!--esta es la sección del formulario emergente-->
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Nombre:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="pwd">Password:</label>
+                      <div class="col-sm-10"> 
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                          <label><input type="checkbox"> Remember me</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                  <p>Power by Equipo Laboratoria</p>
+                </div>
+              </div> 
+            </div>
+          </div>
   		</header>
   		<section>
-  			<div class="container-fluid">
+  			<div class="container-fluid whute">
   				<div class="row abajo-1">
   					<div class="col-lg-12">
-  						<h2 class="blue text-center">Nuestos Servicios</h2><!--seccion de nuestros servicios-->
+  						<a name="que"><h2 class="blue text-center">Nuestos Servicios</h2></a><!--seccion de nuestros servicios-->
   					</div>
   				</div>
 				<div class="row text-center abajo-1">
@@ -87,7 +131,7 @@
   		<section>
   			<div class="container-fluid"><!--seccion de separador-->
   				<div class="row ">
-  					<div class="col-lg-12">
+  					<div class="col-lg-12 col-xs-12">
   					<div>
   						<hr>
   					</div>
@@ -104,7 +148,7 @@
   					<div class="col-lg-6">
   						<div class="row">
   							<div class="col-lg-4">
-  								<h3>Ejemplo de</h3>
+  								<a name="como"><h3 class="blue">Ejemplo de</h3></a>
   							</div>
   							<div class="col-lg-8">
   								<img src="img/logo-2.jpg" class="img-responsive">
@@ -119,8 +163,8 @@
   							</div>
   						</div>
   					</div>
-  					<div class="col-lg-6">
-  						<div  class="embed-responsive embed-responsive-16by9">
+  					<div class="col-lg-6"><!--esta es la sección del video-->
+  						<div  class="embed-responsive embed-responsive-16by9 visible-lg"><!--esta sección se oculta-->
   							<iframe src="https://www.youtube.com/embed/MQFHfFyssH4" frameborder="0" allowfullscreen></iframe>
   						</div>
   					</div>
@@ -128,7 +172,7 @@
   			</div>
   		</section>
   		<section>
-  			<div class="container-fluid"><!--seecion *lo quiero que hago*-->
+  			<div class="container-fluid"><!--seecioón *lo quiero, que hago*-->
   				<div class="row">
   					<div class="col-lg-6">
   						<img src="img/sec-2.jpg" class="img-responsive">
@@ -136,11 +180,11 @@
   					<div class="col-lg-6">
   						<div class="row">
   							<div class="col-lg-12">
-  								<h2>Lo quiero ¿Qué hago?</h2>
+  								<h2 class="text-center">Lo quiero ¿Qué hago?</h2>
   							</div>
   						</div>
   						<div class="row"><!--Paso1-->
-  							<div class="col-lg-2">
+  							<div class="col-lg-2 visible-lg"><!--esta sección se oculta-->
   								<div class="bg-azul circulo">
   									<div class="icon-pencil"></div>
   								</div>	
@@ -151,7 +195,7 @@
   							</div>
   						</div>
   						<div class="row"><!--paso2-->
-  							<div class="col-lg-2">
+  							<div class="col-lg-2 visible-lg"><!--esta sección se oculta-->
   								<div class="bg-azul circulo">
   									<div class="icon-tools"></div>
   								</div>	
@@ -168,7 +212,7 @@
   							</div>
   						</div>
   						<div class="row"><!--paso3-->
-  							<div class="col-lg-2">
+  							<div class="col-lg-2 visible-lg"><!--esta sección se oculta-->
   								<div class="bg-azul circulo">
   									<div class="icon-magnifying-glass"></div>
   								</div>	
@@ -195,69 +239,111 @@
    					</div>
   				</div>
   			</div>
-  		</section>
+  		</section><!--fin hr y separador-->
   		<section>
   			<div class="container-fluid"><!--esta es la seccion de puntos a ver-->
-  				<div class="row">
-					<div class="col-lg-6">
-						<div class="row">
-  							<div class="col-lg-4">
-  								<h3>Ejemplo de</h3>
-  							</div>
-  							<div class="col-lg-8">
-  								<img src="img/logo-2.jpg" class="img-responsive">
-  							</div>
-  						</div>
-  						<p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a miillones de personas en segundos, pero ¿qué pasa si el producto digital no es bueno o no se entiende? Pierde esta enorme oportunidad. Con <span class="blue">User Testing 360,</span> puedes entender la experincia de los usuarios. Con <span class="blue">User Testing 360,</span> podrás entender:</p>
-  						<ul>
-  							<li>¿Cómo tú público objetivo verdaderamente usa tu producto?</li>
-  							<li>¿Qué se hace fácil o díficil al navegar en tu producto?</li>
-  							<li>¿Qué es lo que tú público quiere hacer y tal vez no obtiene o consigue?</li>
-  						</ul>
-  						<p><span class="blue">"User Testing 360"</span> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital</p>
-					</div>
-					<div class="col-lg-6">
-						<img src="img/banner.jpg" class="img-responsive">
-					</div>  					
-  				</div>
-  			</div>
+  	      <div class="row">
+            <div class="col-lg-6">
+              <div class="row">
+                  <div class="col-lg-4">
+                    <a name="porque"><h3 class="blue">Por que usar</h3></a>
+                  </div>
+                  <div class="col-lg-8">
+                    <img src="img/logo-2.jpg" class="img-responsive">
+                  </div>
+                </div>
+                <p>En la era en la que nos encontramos, la web se ha convertido en el mejor sitio para llegar a miillones de personas en segundos, pero ¿qué pasa si el producto digital no es bueno o no se entiende? Pierde esta enorme oportunidad. Con <span class="blue">User Testing 360,</span> puedes entender la experincia de los usuarios. Con <span class="blue">User Testing 360,</span> podrás entender:</p>
+                <ul>
+                  <li>¿Cómo tú público objetivo verdaderamente usa tu producto?</li>
+                  <li>¿Qué se hace fácil o díficil al navegar en tu producto?</li>
+                  <li>¿Qué es lo que tú público quiere hacer y tal vez no obtiene o consigue?</li>
+                </ul>
+                <p><span class="blue">"User Testing 360"</span> te ayudará a responder estas preguntas y muchas más. Es el toque final perfecto para tu página o producto digital</p>
+            </div>
+            <div class="col-lg-6">
+              <div class="efecto">
+                <img src="img/banner.jpg" class="img-responsive">
+              </div>
+            </div>            
+          </div>
+  	   	</div>
   		</section>
   		<section>
-			<div class="container-fluid">
-				<div class="row bg-azul abajo white">
-			    	<div class="col-lg-6">
-			    		<div class="text-center">
-			    			<h3>PRUEBA GRATUITA</h3>
-			    			<p>Obtén un video gratis de 5 minutos</p>
-			    		</div>
-			    	</div>
-			    	<div class="col-lg-6 text-center">
-			    		<button class="btn-1"><h5>Pruebalo Gratis</h5></button>
-			    	</div>
-	   			</div>
-			</div>
-  		</section>
-  		<footer>
+		    <div class="container-fluid">
+          <div class="row bg-azul abajo"><!--sección prueba-->
+            <div class="col-lg-6 col-xs-6">
+              <div class="text-right white">
+                <h3>PRUEBA GRATUITA</h3>
+                <p>Obtén un video gratis de 5 minutos</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-lg-6"><!--estas sección esta hecha con clases de bootstrap, clase modal que crea ventanas emergentes-->
+              <button class="btn-1 white" data-toggle="modal" data-target="#ventana"><h5>Pruebalo Gratis</h5></button>
+            </div>
+          </div>
+          <div class="modal fade" id="ventana" tabindex="-1" role="dialog" aria-labelledby="MyModalLabel" aria-hidden="true"><!--sección de pantalla emergente-->
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h4>Formulario Users Testing 360</h4>
+                </div>
+                <div class="modal-body">
+                  <form class="form-horizontal"><!--esta es la sección del formulario emergente-->
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Nombre:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="email">Email:</label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label class="control-label col-sm-2" for="pwd">Password:</label>
+                      <div class="col-sm-10"> 
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                          <label><input type="checkbox"> Remember me</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group"> 
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Enviar</button>
+                      </div>
+                    </div>
+                  </form>
+                  <p>Power by Equipo Laboratoria</p>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+  		</section><!--fin de la sección-->
+  		<footer><!--esta es la sección del footer-->
   			<div class="container-fluid bg-black">
   				<div class="row ">
-  					<div class="col-lg-6">
+  					<div class="col-lg-6 col-xs-6">
   						<p class="white">Escribenos a:</p>
   						<p class="blue">experiencia de usuario.lab@gmail.com</p>
   						<p class="white">telef 9896379225</p>
   					</div>
-  					<div class="col-lg-6">
-  						<div class="row">
-  							<div class="col-lg-10 text-right blue">
-  								<div class="icon-facebook f-t"></div>
-  							</div>
-  							<div class="col-lg-2">
-  								<div class="icon-twitter blue f-t"></div>
-  							</div>
-  						</div>
-  						<p class="text-right white">Copyright &copy; 2015-User Testing 360</p>
+  					<div class="col-lg-6 col-xs-6">
+  						<ul class="text-right">
+                <li class="icon-twitter blue f-t"></li>
+                <li class="icon-facebook blue f-t"></li>      
+              </ul>
+              <p class="text-right white">Copyright &copy; 2015-User Testing 360</p>
   					</div>
   				</div>
   			</div>
-  		</footer>
+  		</footer><!--fin del footer-->
     </body>
 </html>

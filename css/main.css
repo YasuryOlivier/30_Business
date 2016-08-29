@@ -1,7 +1,6 @@
 .bg-1{
 	background-image: url("../img/large.jpg");
 	background-size: cover;
-	background-color: opacity: 1.5;
 }
 .bg-azul{
 	background-color: blue;
@@ -18,6 +17,7 @@
 }
 .f-t{
 	font-size: 30px;
+	display: inline-block;
 }
 .abajo{
     margin-top:12%; 
@@ -25,6 +25,10 @@
 .abajo-1{
     margin-top:7%; 
 }
+.abajo-2{
+    height: 700px; 
+}
+
 .btn-1{
 	border: solid white;
 	border-radius: 10%;
@@ -40,8 +44,9 @@
 	font-size: 80px;
 }
 .btn-2{
- border-radius: 100%;
+ border-radius: 30%;
  background: white;
+ width: 40%;
 }
 .separador{
  margin-top: -60px;
@@ -75,6 +80,11 @@ nav.navbar{/*Color del nav bar*/
     background-color: #76CB7E;
     font-family: 'Arial';
 }
-header{
-	color: white;
+li:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	background-color: white;
+}
+.efecto:hover{
+	-webkit-transform: rotate(7deg);
 }
